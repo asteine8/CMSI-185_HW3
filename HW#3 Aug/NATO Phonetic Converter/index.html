@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>NATO Phonetic Converter</title>
+        <meta charset="utf-8">
+
+        <style>
+            #WordInputBox {
+                width: 25%;
+            }
+        </style>
+
+        <script src="converter.js"></script>
+    </head>
+
+    <body>
+        <h1>NATO Phonetic Converter</h1>
+        <p>Press <span onclick="EnterClicked();">enter</span> to convert</p>
+        <input type="text" id="WordInputBox" onkeydown="TextBoxKeyPressed(event);" /><br>
+        <p id="Output"></p>
+    </body>
+</html>
